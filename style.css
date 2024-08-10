@@ -1,0 +1,445 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+@font-face{
+    font-family: 'Trailers';
+    src: url('TT\ Trailers\ Trial\ DemiBold.ttf')  format('truetype');
+}
+@font-face{
+    font-family: 'FavoritExtraBold';
+    src: url('FavoritC.woff')  format('woff');
+}
+@font-face{
+    font-family: 'FavoritLight';
+    src: url('FavoritBookC.woff2')  format('woff');
+}
+@font-face{
+    font-family: 'Cyberthrone';
+    src: url('Cyberthrone.ttf')  format('truetype');
+}
+.backgroundColor{
+    background-color: #fcf9ee;
+    height: 100%;
+}
+.h-logo{
+    display: inline;
+    position: relative;
+    width: 35px;
+    top: 30px;
+    left: 30px;
+    position: fixed;
+}
+.container{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.contest{
+    text-align: right;
+}
+.heading{
+    font-family: "FavoritExtraBold";
+    font-size: 147px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.subHead{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-family: "FavoritExtraBold";
+}
+.subHead h1{
+    font-size: 147px;
+    margin-top:0px ;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+.coll{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* height: 70px; */
+    justify-content: center;
+}
+.coll p{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+    font-size: 42px;
+    margin-top: 0px;
+    margin-bottom:  0px;                         
+}
+.imageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+.imageContent{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.i-standard{
+    border: 2px solid black;
+}
+.explore{
+    text-align: right;
+    margin-bottom: 40px;
+}
+.explore>p{
+    font-size: 18px;
+    font-family: 'FavoritLight';
+}
+.explore>img{
+    width: 80px;
+    position: relative;
+    top: 26px;
+}
+.textBrand{
+    text-align: right;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.textBrand p{
+    display: inline;
+    margin-right: 30px;
+    font-family: 'FavoritLight';
+    text-decoration: underline;
+    font-weight: 550;
+}
+.textBrand h2{
+    display: inline;
+    font-size: 40px; 
+}
+.productContainer{
+    
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+.product{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #e7d6c4;
+    border: 2px solid black;
+    width: 27vw;
+    height: 34vw;
+    overflow: hidden;
+    position: relative  ;
+    left: 0;
+}
+.imageDiv{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.item-img{
+    position: relative;
+    bottom: 20px;
+    width: 23vw;
+}
+.productName{
+    text-align: center;
+    font-family: "Trailers";
+    font-size: 8vw;
+    line-height: 6vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.item-price{
+    font-size: 22px;
+    font-family: 'FavoritLight';
+}
+.subPro{
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+.item-label{
+    width: 80px;
+    /* position: relative;
+    bottom: 30px; */
+}
+.ss{
+    font-family: 'FavoritLight';
+    font-size: 12px;
+    margin-bottom: .3vw;
+}
+.comparePrice{
+    margin-top: 0px;
+    font-size: 16px;
+    font-family: 'FavoritLight';
+    font-weight: 400;
+    text-decoration: line-through;
+}
+.reviewContainer{
+    display: flex;   
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+#reviewContent1{
+    display: flex;
+    justify-content: end;
+}
+.virgolette{
+    width: 80px;
+}
+.name{
+    position: relative;
+    left: -35px;
+}
+.name h3{
+    font-family: "Cyberthrone";
+    font-size: 38px;
+    font-weight: 100;
+
+}
+.reviewContent{
+    width: 40%;
+}
+.review{
+    font-size: 13px;
+    font-family: 'FavoritLight';
+}
+footer{
+    margin-top: 80px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(252, 249, 238);
+    padding-top: 10vw;
+    padding-bottom: 3vw;
+    padding-left: 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+.footerColumn1{
+    width: 40%;
+}
+.firstSubscribe{
+    font-size: 11.5px;
+    font-weight: 400;
+    margin-bottom: 11.5px;
+    line-height: 11.5px;
+    font-family: 'FavoritLight';
+}
+.emailImage{
+    width: 4vw;
+    margin-bottom: 40px;
+}
+.secondEmail{
+    font-size: 8.9px;
+    font-family: 'FavoritLight';
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+
+}
+.emailSubmit{
+    display: flex;
+    justify-content: space-between;
+}
+.footerColumn2{
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+}
+.footerColumn2>p{
+    font-size: 11.5px;
+    font-weight: 400;
+    font-family: 'FavoritLight';
+    /* margin-bottom: 1vw; */
+}
+.subFooter>h5{
+    font-size: 1.85vw;
+    /* margin-top: .32vw;
+    margin-bottom: .32vw;
+    line-height: 2vw; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'FavoritLight';
+}
+.subFooter{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.footerColumn3{
+    display: flex;
+    flex-direction: column;
+}
+.arrowUp{
+    display: flex;
+    height: 100%;
+    align-items: start;
+    margin-top: 30px;
+}.arrowUp img{
+    width: 80px;
+}
+nav{
+    display: none;
+}
+/* Responsiveness */
+@media screen and (max-width: 1150px){
+    .heading{
+        font-size: 130px;
+    }
+    .subHead{
+        font-size: 130px;
+    }
+    .coll p{
+        font-size: 38px;
+    }
+    .subPro{
+        bottom: 70px;
+    }
+}
+@media screen and (max-width: 992px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 49.45px 34.615px;
+    }
+    .h-logo{
+        display: none;
+    }
+    .m-logo{
+        width: 14vw;
+        display: block;
+    }
+    .menuImage{
+        width: 30px;
+    }
+    .cart{
+        font-size: 2vw;
+        line-height: 2vw;
+        font-family: 'FavoritLight';
+    }
+    .cartDiv{
+        display: flex;
+        align-items: center;
+    }
+    .reviewContainer{
+        justify-content: space-between;
+    }
+    .reviewContent{
+        width: 50%;
+    }
+    #reviewContent1{
+        justify-content: start;
+    }
+    .review{
+        font-size: 1.8vw;
+        line-height: 1.7vw;
+    }
+    .virgolette{
+        width: 100px;
+    }
+    .name h3{
+        font-size: 5.4vw;
+    }
+    .name{
+        position: relative;
+        left: -50px;
+    }
+    .textBrand h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 905px){
+    .heading{
+        font-size: 100px;
+    }
+    .subHead h1{
+        font-size: 100px
+    }
+    .coll p{
+        font-size: 28px;
+    }
+    .product{
+        width: 30vw;
+        height: 45vw;
+    }
+    .subPro{
+        bottom: 40px;
+    }
+    .subFooter>h5{
+        font-size: 2.5vw;
+
+    }
+    .arrowUp img {
+    width: 50px;
+}
+}
+@media screen and (max-width: 650px){
+    .container{
+        width: 95%;
+    }
+    .heading{
+        font-size: 70px;
+    }
+    .subHead h1{
+        font-size: 70px;
+    }
+    .coll p{
+        font-size: 18px;
+    }
+    .explore>img{
+    width: 60px;
+    }
+}
+@media screen and (max-width: 535px){
+    .item-label{
+        width: 50px;
+    }
+    .item-price{
+        font-size: 3.3vw;
+    }
+}
+@media screen and (max-width: 480px){
+    .imageContent{
+        margin-left: 7px;
+        margin-right:7px;
+    }
+    .heading {
+        font-size: 50px;
+    }
+    .subHead {
+        font-size: 50px;
+    }
+    .coll p {
+        font-size: 10px;
+    }
+    .textBrand h2 {
+        font-size: 20px;
+    }
+    .textBrand p{
+        font-size: 14px;
+    }
+    .explore>img{
+        width: 30px;
+        top: 13px;
+    }
+    .arrowUp img{
+        width: 50px;
+    }
+    .footerColumn1{
+        display: none;
+    }
+    .review{
+        font-size: 2vw;
+    }
+    .subFooter>h5{
+        font-size: 5vw;
+        line-height: 6vw;
+    }
+    footer{
+        justify-content: space-between;
+        width: 95%;
+    }
+}
